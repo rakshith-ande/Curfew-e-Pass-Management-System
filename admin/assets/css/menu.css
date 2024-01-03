@@ -1,0 +1,30 @@
+#item
+{
+    font-size: 16px;
+}
+@media screen and (max-width: 768px)
+{
+    #side1
+    {
+        display: none;
+    }
+    #side2
+    {
+        display: block;
+    }
+}
+@media screen and (min-width: 769px)
+{
+    #side1
+    {
+        display: block;
+    }
+    #side2
+    {
+        display: none;
+    }
+    #side
+    {
+        margin-top: 40px;
+    }
+}
